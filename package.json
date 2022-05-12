@@ -1,0 +1,45 @@
+{
+  "name": "storage-sample-integration-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arcana/storage": "https://testnet-dev.s3.dualstack.ap-south-1.amazonaws.com/storage-1649555664-59d79d1b87d3cd45617c0db9c295eb29697d06fced9a8950e3143a48.tar",
+    "react": "^18.1.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "node-polyfill-webpack-plugin": "^1.1.4"
+  }
+}
