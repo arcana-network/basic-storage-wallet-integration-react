@@ -21,10 +21,14 @@ export class FileList extends React.Component {
       access,
       files: files.map(f => {
         f.download = () => {
-          downloader.download(f.did).catch(e => console.error(e))
+          downloader.download(f.did).catch(e => window.alert(e))
         }
         f.delete = () => {
-          access.deleteFile(f.did).catch(e => console.error(e))
+          access.deleteFile(f.did).catch(e => window.alert(e))
+        }
+        f.share = () => {
+          const addr = window.prompt('Enter an address:')
+          access.share(['0x' + f.did], [addr]).catch(e => window.alert(e))
         }
         return f
       })
@@ -61,6 +65,7 @@ export class FileList extends React.Component {
             <td className="button-container">
               <button onClick={file.download}>Download</button>
               <button onClick={file.delete}>Delete</button>
+              <button onClick={file.share}>Share</button>
             </td>
           </tr>
         ))}
