@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@arcana/storage": "https://testnet-dev.s3.dualstack.ap-south-1.amazonaws.com/storage-1649555664-59d79d1b87d3cd45617c0db9c295eb29697d06fced9a8950e3143a48.tar",
+    "@arcana/wallet": "https://testnet-dev.s3.dualstack.ap-south-1.amazonaws.com/wallet-1653485116-73d103c309f1f3059b2613cc27951ed1cb6f693ec952fcf224f45fc3.tar",
     "react": "^18.1.0",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^18.1.0",
