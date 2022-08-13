@@ -24,7 +24,7 @@ This repository is bootstrapped using [Create React App](https://github.com/face
 npm install
 ```
 
-### Run Development Server
+### Run the Development Server
 
 You can run the sample application in the development mode.
 
