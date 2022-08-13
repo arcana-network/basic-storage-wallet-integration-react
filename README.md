@@ -18,7 +18,7 @@ This repository is bootstrapped using [Create React App](https://github.com/face
 
 ## ⚙️ Installation
 
-### Deploy Software Dependencies
+### Download Software Dependencies
 
 ```bash
 npm install
