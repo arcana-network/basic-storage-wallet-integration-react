@@ -10,9 +10,9 @@
 
 # Sample Code: Basic Storage and Auth SDK Integration (React)
 
-The repository `basic-storage-wallet-integration` contains sample code to demonstrate how you can integrate [React JavaScript Framework](https://reactjs.org/) UI application with Arcana [Auth](https://github.com/arcana-network/auth) and [Storage](https://github.com/arcana-network/storage) SDKs.
+The repository `basic-storage-wallet-integration` contains sample code to demonstrate how you can integrate a [React JavaScript Framework](https://reactjs.org/) UI application with the Arcana [Auth](https://github.com/arcana-network/auth) and [Storage](https://github.com/arcana-network/storage) SDKs.
 
-It does not have any code for invoking other features and functions of these integrated SDKs.  Check out Arcana [Sample Demo App](https://github.com/arcana-network/demo-app) repository for a full fledged sample dApp that integrates with Arcana SDKs and plugs in Auth and Storage functionalities.
+It does not have any code for invoking other features and functions of these integrated SDKs.  Check out the Arcana [Sample Demo App](https://github.com/arcana-network/demo-app) repository for a full-fledged sample dApp that integrates with Arcana SDKs and plugs in Auth and Storage functionalities.
 
 This repository is bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
 
@@ -116,7 +116,7 @@ See [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-
 
 ## 📚 Usage
 
-You can utilize the source code in this repository for getting started with Arcana Network SDKs. Use it to build a stand alone basic React application that integrates with the latest Auth and Storage SDK.  You may plug in additional functionality and try out various features of the SDKs.
+You can utilize the source code in this repository to get started with the Arcana Network SDKs. Use it to build a stand-alone basic React application that integrates with the latest Auth and Storage SDK.  You may plug in additional functionality and try out various features of the SDKs.
 
 See [Arcana Documentation](https://docs.beta.arcana.network/) for user guides and SDK Reference Guides.  
 
