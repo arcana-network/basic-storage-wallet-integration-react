@@ -48,7 +48,7 @@ npm test
 
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Production Build
+### Build for Production
 
 To compile and minify for production build, use this script:
 
