@@ -111,6 +111,7 @@ How do you address the case when the following script fails to minify?
 ```bash
 npm run build
 ```
+
 See [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) for troubleshooting tips.
 
 ## 📚 Usage
