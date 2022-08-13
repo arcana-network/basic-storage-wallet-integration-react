@@ -124,7 +124,7 @@ To get started with Arcana SDKs quickly, you can also check out other [code samp
 
 ## 💡 Support
 
-For any queries regarding this repository usage, contact [Arcana support team](mailto:support@arcana.network).
+For any queries regarding this repository usage, contact the  [Arcana Support Team](mailto:support@arcana.network).
 
 ## ℹ️ License
 
