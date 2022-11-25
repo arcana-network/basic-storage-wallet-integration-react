@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@arcana/auth": "^0.1.0",
-    "@arcana/storage": "^0.2.0",
-    "react": "^18.1.0",
+    "@arcana/auth": "^0.2.2",
+    "@arcana/storage": "^0.3.18",
+    "react": "^18.2.0",
     "react-app-rewired": "^2.2.1",
-    "react-dom": "^18.1.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -35,12 +35,13 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.0.1",
+    "eslint": "^8.28.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "node-polyfill-webpack-plugin": "^1.1.4"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "tslib": "^2.4.1"
   }
 }
