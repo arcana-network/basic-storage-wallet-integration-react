@@ -7,6 +7,7 @@ let storageProvider
 export async function getWalletInstance () {
   if (!auth) {
     auth = new AuthProvider(process.env.REACT_APP_ARCANA_APP_ADDRESS, {
+      network: 'dev',
       alwaysVisible: true,
       theme: 'light',
       position: 'right'
@@ -20,8 +21,9 @@ export async function getWalletInstance () {
 export default async function getStorageProvider (provider) {
   if (!storageProvider) {
     storageProvider = await StorageProvider.init({
+      chainId: 40404,
+      gateway: 'https://gateway-dev.arcana.network',
       appId: process.env.REACT_APP_ARCANA_APP_ID,
-      // gateway: 'https://gateway-dev.arcana.network/api/v1/',
       provider
     })
   }
