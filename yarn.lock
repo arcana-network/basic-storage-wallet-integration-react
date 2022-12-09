@@ -19,10 +19,10 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
-"@arcana/auth@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@arcana/auth/-/auth-0.2.2.tgz#6196ad2654cdeca63f28d13c45f4f48c7f6dff09"
-  integrity sha512-Nt74tEXWICuUBZsOF45gWypySP/62PXiXqyhM+NkGG9fkPcGWvWXVwVXlEWCSwM3w/5cls+2oEyqcBqX8GXMGQ==
+"@arcana/auth@^0.3.0-beta.1":
+  version "0.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@arcana/auth/-/auth-0.3.0-beta.1.tgz#7fe3592768aec6fedc7d9d472d98b55c0ccf6972"
+  integrity sha512-r1rD3sKq9XfOQjNh43fNyZJmclYNWVO1btVCT+aWs2dXulh9EoApzNzmZ6KLUFOqK5Q0HgpDEHKeBUQ4YNqqBw==
   dependencies:
     "@metamask/safe-event-emitter" "^2.0.0"
     eth-rpc-errors "^4.0.3"

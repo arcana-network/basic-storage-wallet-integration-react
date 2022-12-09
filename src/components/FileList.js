@@ -28,7 +28,7 @@ export class FileList extends React.Component {
         }
         f.share = () => {
           const addr = window.prompt('Enter an address:')
-          access.share(['0x' + f.did], [addr]).catch(e => window.alert(e))
+          access.share(f.did, [addr], null).catch(e => window.alert(e))
         }
         return f
       })
