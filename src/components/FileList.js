@@ -20,15 +20,17 @@ export class FileList extends React.Component {
       downloader,
       access,
       files: files.map(f => {
-        f.download = () => {
+        f.download = async () => {
           downloader.download(f.did).catch(e => window.alert(e))
         }
-        f.delete = () => {
-          access.deleteFile(f.did).catch(e => window.alert(e))
+        f.delete = async () => {
+          await access.deleteFile(f.did).catch(e => window.alert(e))
+          window.alert('File deleted. Reload to see the new file list.')
         }
-        f.share = () => {
+        f.share = async () => {
           const addr = window.prompt('Enter an address:')
-          access.share(f.did, [addr], null).catch(e => window.alert(e))
+          await access.share(f.did, [addr], null).catch(e => window.alert(e))
+          window.alert('File shared.')
         }
         return f
       })
